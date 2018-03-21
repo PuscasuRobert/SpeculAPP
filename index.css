@@ -1,0 +1,42 @@
+body
+{
+	margin:0px;
+	height: 100vh;
+}
+
+#page
+{
+	height:400px;
+	margin:auto;
+	display:block;
+}
+
+#LogIn 
+{
+	background-color:yellow;
+	display:block;
+	width:700px;
+	height:100%;
+	margin:0 auto;
+}
+
+#inputTextbox
+{
+	display:block;
+}
+
+#c
+{
+	display:inline-block;
+	margin:0 auto;
+}
+
+#LogIn #inputTextbox #inputText{
+	display:inline-block;	
+	
+}
+
+#LogIn #usernameInput 
+{
+	
+}
