@@ -1,0 +1,276 @@
+@media (max-width:1050px)
+{
+	#d1,#d2,#d3
+	{
+		display:inline-block;
+		vertical-align: top;
+	}
+
+	#d1
+	{
+		width:100%;
+	}
+
+	#d2
+	{
+		width:100%;
+	}
+
+	#d3
+	{
+		min-width:100%;
+		width:auto;
+	}
+
+	#trade
+	{
+		display:block;
+		margin:0px auto 0px auto;
+		width:400px;
+		background-color:#1C2E48;
+	}
+
+	#trade #tradeTitle
+	{
+		margin:30px 0px 0px 0px;
+	}
+
+	#trade #currencyDiv1,#trade #currencyDiv2
+	{
+		width:50%;
+		display:inline-block;
+	}
+
+	#trade #currencyDiv1
+	{
+		float:left;
+	}
+
+	#trade #currencyDiv2
+	{
+		float:right;
+	}
+
+	#trade #swapCurrency
+	{
+		background-image:url('swapCurrency.png');
+		padding:0;
+		border:0;
+		margin:0;
+	}
+
+
+	#trade #Buttons
+	{
+		padding:20px;
+	}
+
+	#trade option
+	{
+		background-color:#1C2E48;
+	}
+
+	#trade option #currency
+	{
+		color:#FFFFFF;
+	}
+
+	#trade #money
+	{
+		display:block;
+		width:250px;
+		height:30px;
+		margin:30px auto 0px auto;
+	}
+
+	#trade #currencyButtons p
+	{
+		display:inline;
+		color:white;
+	}
+
+	#trade #exchangeButtons
+	{
+		float:left;
+		display:inline-block;
+		width:50%;
+		padding:0px auto 0px auto;
+	}
+
+	#trade #exchangeButtons #SellButton,#trade #exchangeButtons #BuyButton
+	{
+		display: block; 
+		margin: 0px auto 0px auto;
+		width:150px;
+		height:30px;
+	}
+
+	#trade p
+	{
+		padding:15px;
+		font-size:30px;
+		color:#FFFFFF;
+	}
+
+	#trade #selectMoney
+	{
+		display:inline-block;
+		width:100%;
+	}
+
+	#trade #select1,#trade #select2
+	{
+		background-color:#294660;
+		color:#FFFFFF;
+		border:0px;
+		height:40px;
+		width:100%;
+	}
+
+	#trade #currency1
+	{
+		width:40%;
+		display:inline-block;
+		//float:left;
+	}
+
+	#trade #currency2
+	{
+		width:40%;
+		display:inline-block;
+		float:right;
+	}
+
+	#trade #x
+	{
+		height:80px;
+		width:100%;
+		background-color:#273952;
+	}
+
+	#trade #moneyValue
+	{
+		padding:16px 0px 16px 0px;	
+	}
+
+	#trade #moneyValue #currencyValue
+	{
+		display:block;
+		
+		color:white;
+		font-size:40px;
+		text-align:center;
+		margin: auto 0px;
+	}
+
+	#resources
+	{
+		width:200px;
+		display:block;
+		margin:30px auto 0px auto;
+	}
+
+	#resources p
+	{
+		color:#FFFFFF;
+	}
+
+	#resource
+	{
+		background-color:#1C2E48;
+		//margin-bottom:8px;
+	}
+
+	#resources #moneyType
+	{
+		background-color:#294660;
+		display:inline-block;
+		width:40px;
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	#resources #moneyType p
+	{
+		//margin-top:20px;
+	}
+
+	#resources #moneyAmmount
+	{
+		background-color:#1C2E48;
+		display:inline;
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	#resources #moneyAmmount p
+	{
+		display:inline;
+		//margin-top:20px;
+	}
+
+	#graph
+	{
+		height:100%;
+		display:block;
+		vertical-align:top;
+		margin-top:30px;
+		text-align:center;
+	}
+
+	#graph img
+	{
+		display:inline-block;
+		margin:0px auto;
+		width:400px;
+	}
+
+	#ranking
+	{
+		width:auto;
+		display:inline-block;
+		margin:0px auto;
+	}
+
+	#ranking #property
+	{
+		margin:0px;
+		padding:5px 10px 5px 10px;
+		border-color:black;
+		border-style:solid;
+		border-width: 3px;
+		font-size:35px;
+		color:white;
+		background-color:#273952;
+		text-align:center;
+		margin-left:-2px;
+		margin-right:-3px;
+	}
+
+	#ranking #value
+	{
+		margin:0px;
+		padding:0px 6px 0px 6px;
+		border-color:black;
+		border-style:solid;
+		border-width: 3px;
+		background-color:#294660;
+		font-size:20px;
+		color:white;
+		text-align:center;
+		margin-left:-2px;
+		margin-right:-3px;
+	}
+
+	#ranking #rankingColumn
+	{
+		display:inline-block;
+		vertical-align:top;
+	}
+
+	#center
+	{
+		margin:50px;
+		text-align:center;
+	}
+}

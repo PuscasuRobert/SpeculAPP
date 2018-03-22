@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>SpeculAPP</title>
-	<link rel="stylesheet" type="text/css" href="stats.css">
+	<link rel="stylesheet" type="text/css" href="stats1.css">
+	<link rel="stylesheet" type="text/css" href="stats2.css">
 	
 	</head>
 
@@ -13,7 +14,23 @@
 			<div id="trade">
 				<p id="tradeTitle">Money Exchange</p>
 				<div id="selectMoney">
-					<div id="currencyDiv1">
+					<div id="currency1">
+						<select id="select1">
+								<option value="RON">RON</option>
+								<option value="EUR">EUR</option>
+								<option value="USD">USD</option>
+								<option value="CAD">CAD</option>
+								<option value="CAD">GDP</option>
+						</select>
+						<div id="x">
+							<div id="moneyValue">
+								<div id="currencyValue">
+									100
+								</div>					
+							</div>
+						</div>
+					</div>
+					<div id="currency2">
 						<select id="select1">
 							<option value="RON">RON</option>
 							<option value="EUR">EUR</option>
@@ -21,16 +38,13 @@
 							<option value="CAD">CAD</option>
 							<option value="CAD">GDP</option>
 						</select>
-					</div>
-					<div id="currencyDiv2">
-						<select id="select2">
-							<option value="RON">RON</option>
-							<option value="EUR">EUR</option>
-							<option value="USB">USD</option>
-							<option value="CAD">CAD</option>
-							<option value="CAD">GDP</option>
-						</select>
-
+						<div id="x">
+							<div id="moneyValue">
+								<div id="currencyValue">
+									100
+								</div>					
+							</div>
+						</div>
 					</div>
 				</div>
 				<input type="text" id ="money">	
@@ -84,6 +98,14 @@
 					</div>
 					<div id="moneyAmmount">
 						<p>100</p>
+					</div>
+				</div>
+				<div id="resource">
+					<div id="moneyType">
+						<p> TOTAL </p> 
+					</div>
+					<div id="moneyAmmount">
+						<p>1000</p>
 					</div>
 				</div>
 			</div>
